@@ -16,4 +16,8 @@ fun main(){
 
     //can also write loop as
     for(i in 1.rangeTo(10).step(2))println(i)
+
+    for(index in names.indices){
+        println("Index: $index Element: ${names[index]}")
+    }
 }
