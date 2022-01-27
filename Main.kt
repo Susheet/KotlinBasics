@@ -10,6 +10,9 @@ fun main() {
 08:30 You have two thousand dollars
 09:10 You have no dollars!
 """)
+
+    val result = println("text")
+    println(result)
 }
 
 //fun secondFunction(){
