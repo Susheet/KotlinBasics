@@ -23,7 +23,7 @@ object StaticLike{        //object keyword creates a singleton object internally
 
 fun main(){
     val obj = ClassesExample("SK")
-   //println("Print ${obj.name}")
+     println("Print ${obj.name}")
     val obj2 = ClassesExample("SK",10)
     println("this is the id: ${obj2.id}")
    StaticLike.id_no = 11   //calling without creating instance
